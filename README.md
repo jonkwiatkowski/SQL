@@ -46,6 +46,12 @@ As you examine the data, you begin to suspect that the dataset is fake. Maybe yo
 
 3. A bar chart was created to display average salary by title.
 
+## Analysis
+
+* The employee salaries, as displayed in the histogram below, seem to make sense. More employees make less and fewer employees make more. This seems to decrease exponentially.
+* The salaries start to seem suspicious when grouped with by title. When averaging each category, we found that they're all roughly the same. Typically, we would expect more variation here. For example, senior staff generally make more than staff, senior engineers generally make more than engineers, managers often make the most, etc.
+* Out of over 300,000 employees, there are only 1,638 unique last names. Each name has around 150 - 200 occurrences except "Foolsday," which only has one occurrence. This further indicates that the employee data is fictitious. 
+
 - - -
 
 ## References
