@@ -9,15 +9,17 @@ CREATE TABLE "departments" (
         "dept_no"
      )
 );
-
+select * from titles;
 -- create dept_emp table
 CREATE TABLE "dept_emp" (
+	id serial PRIMARY KEY,
     "emp_no" int   NOT NULL,
     "dept_no" varchar(5)   NOT NULL
 );
 
 -- create dept_manager table
 CREATE TABLE "dept_manager" (
+	id serial PRIMARY KEY,
     "dept_no" varchar(5)   NOT NULL,
     "emp_no" int   NOT NULL
 );
@@ -38,6 +40,7 @@ CREATE TABLE "employees" (
 
 -- create salaries table
 CREATE TABLE "salaries" (
+	id serial PRIMARY KEY,
     "emp_no" int   NOT NULL,
     "salary" int   NOT NULL
 );
