@@ -1,5 +1,4 @@
-# sql-challenge
-
+# Data Modeling, Engineering, and Analysis with SQL
 ## Background
 
 A research project was conducted on employees of a corporation from the 1980s and 1990s. All that remained of the database of employees from that period are six CSV files. The following tasks were carried out on the data set and explained in more detail below: **data modeling**, **data engineering**, and **data analysis**.
